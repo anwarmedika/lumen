@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - id: release
-        uses: rymndhng/release-on-push-action@master
+        uses: rymndhng/release-on-push-action@v0.15.0
         with:
           bump_version_scheme: patch 
           
